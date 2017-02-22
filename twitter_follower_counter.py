@@ -207,6 +207,7 @@ def log_error_and_exit(msg):
     print('=' * 80)
     print('WARNING: {}'.format(msg))
     print('=' * 80)
+    exit(1)
 
     
 if __name__ == '__main__':
